@@ -1,16 +1,15 @@
-import React from "react"
-import styled from "styled-components";
+import React from "react";
+import Home from "./pages/Home/Home";
+import Figures from "./pages/Figures/Figures";
+
 
 const App = () => {
   return (
-    <HOME>
-
-    </HOME>
+    <>
+      <Home />
+      <Figures />    
+    </>
   )
 }
-
-const HOME = styled.div `
-
-`
 
 export default App;
