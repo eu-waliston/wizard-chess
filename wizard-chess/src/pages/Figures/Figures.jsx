@@ -10,7 +10,7 @@ const Figures = () => {
 const FIGURES = styled.div`
     width: 100%;
     height: 100vh;
-    background-color: whitesmoke;
+    background-color: #2c2c2c;
 
 `
 
