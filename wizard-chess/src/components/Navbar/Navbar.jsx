@@ -26,7 +26,7 @@ const NAV = styled.div`
       margin-left: 5%;
       text-decoration: none;
       text-transform: uppercase;
-      color: #fff;
+      color: red;
       padding: 10px;
       transition: 0.5s;
       font-weight: 600;
@@ -34,6 +34,7 @@ const NAV = styled.div`
       &:hover {
         background-color: red;
         border-radius: 2px;
+        color: #fff;
       }
     }
   }
