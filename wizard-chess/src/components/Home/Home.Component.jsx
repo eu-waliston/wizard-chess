@@ -1,13 +1,13 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
 const HomeComponent = () => {
-    return (
+  return (
         <HC>
             <h1>Wizard Chess.</h1>
             <a href="https://www.chessvariants.com/large.dir/contest84/wizardchess.html#:~:text=The%20Wizard%20moves%20and%20captures,Wizard%20is%20not%20in%20check." rel="noreferrer" target="_blank">Rules</a>
         </HC>
-    )
+  )
 }
 
 const HC = styled.div`
@@ -38,4 +38,4 @@ const HC = styled.div`
     }
     
 `
-export default HomeComponent;
+export default HomeComponent

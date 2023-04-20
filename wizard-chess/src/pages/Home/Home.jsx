@@ -1,16 +1,16 @@
-import React from "react";
-import styled from "styled-components";
-import background from "../../components/img/bkg-2.jpg"
-import HomeComponent from "../../components/Home/Home.Component";
-import Navbar from "../../components/Navbar/Navbar";
+import React from 'react'
+import styled from 'styled-components'
+import background from '../../components/img/bkg-2.jpg'
+import HomeComponent from '../../components/Home/Home.Component'
+import Navbar from '../../components/Navbar/Navbar'
 
 const Home = () => {
-    return (
+  return (
         <HOME style={{ backgroundImage: `url(${background})` }} id="home">
             <Navbar />
             < HomeComponent />
         </HOME>
-    )
+  )
 }
 
 const HOME = styled.div`
@@ -21,4 +21,4 @@ const HOME = styled.div`
     background-position: center;
 `
 
-export default Home;
+export default Home

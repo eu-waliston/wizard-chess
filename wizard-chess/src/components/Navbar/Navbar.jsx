@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
 const Navbar = () => {
   return (
@@ -10,8 +10,8 @@ const Navbar = () => {
         <a href="#chessboard">chessboard</a>
       </ul>
     </NAV>
-  );
-};
+  )
+}
 
 const NAV = styled.div`
   position: fixed;
@@ -38,6 +38,6 @@ const NAV = styled.div`
       }
     }
   }
-`;
+`
 
-export default Navbar;
+export default Navbar
