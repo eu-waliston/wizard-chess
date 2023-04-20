@@ -2,11 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Figures = () => {
-  // const [peace, setPeace] = React.useState(false)
-
-  // const handleClick = () => {
-  //   setPeace(!peace)
-  // }
   return (
     <FIGURES id="figures">
       <div className='check'>
